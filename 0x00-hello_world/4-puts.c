@@ -1,11 +1,17 @@
 #!/bin/bash
 #include <stdio.h>
+
+
+
+/**
+ * print standard output with puts
+ * Return:0
+ */
+
 int main(void)
-	/**
-	 * code that prints stdoutput using puts
-	 *
-	 */
+
 {
-	puts("Programming is like building a multilingual puzzle");
-		return(0);
+            puts("Programming is like building a multilingual puzzle\n");
+	    return (0);
+
 }
