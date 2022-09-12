@@ -14,13 +14,13 @@ int main(void)
 
 {
 
-	char = i
-	int = c
-	float = d
+	char i;
+	int c;
+	float d;
 
-	printf("print size of char:%c\n",(unsigned long)sizeof(i));
-	printf("print size of int:%d\n",(unsigned long)sizeof(c));
-	printf("print size of float:%d\n",(unsigned long)sizeof(d));
+printf("print size of char:%lu. \n",(unsigned long)sizeof(i));
+printf("print size of int:%lu. \n",(unsigned long)sizeof(c));
+printf("print size of float:%lu. \n",(unsigned long)sizeof(d));
 return (0);
 
 }
