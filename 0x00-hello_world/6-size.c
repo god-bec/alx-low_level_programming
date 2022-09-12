@@ -17,10 +17,14 @@ int main(void)
 	char i;
 	int c;
 	float d;
+	long long int a;
+	long int b;
 
-printf("print size of char:%lu. \n",(unsigned long)sizeof(i));
-printf("print size of int:%lu. \n",(unsigned long)sizeof(c));
-printf("print size of float:%lu. \n",(unsigned long)sizeof(d));
+printf("print size of char:%lu. \n", (unsigned long)sizeof(i));
+printf("print size of int:%lu. \n", (unsigned long)sizeof(c));
+printf("print size of float:%lu. \n", (unsigned long)sizeof(d));
+printf("print size of long long int:%lu. \n", (unsigned long)sizeof(a));
+printf("print size of long int:%lu. \n", (unsigned long)sizeof(b));
 return (0);
 
 }
