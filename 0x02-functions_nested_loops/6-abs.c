@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _abs - prints th absolue value of an integer
- * @c: any value of type int
+ * _abs - prints the absolue value of an integer
+ * @n: any value of type int
  * Return: 0
  *
  */
