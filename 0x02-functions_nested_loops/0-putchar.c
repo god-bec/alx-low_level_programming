@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - write a program tht prints putchar
  * Description: using main function
@@ -10,9 +10,9 @@ int main(void)
 	char *sh = "Holberton";
 	while (*sh)
 	{
-	putchar(*sh);
+	_putchar(*sh);
 	sh++;
 	}
-	putchar('\n');
+ 	_putchar('\n');
 	return (0);
 }
