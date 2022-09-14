@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+ * _isalpha - checks for lowercase character
+ * @c: any value of type int
+ * Return: 0
+ *
+ */
+int _isalpha(int c)
+{
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= '2'));
+}
