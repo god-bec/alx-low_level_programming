@@ -8,18 +8,9 @@
 
 void print_line(int n)
 {
-char a = '-';
-
-if (n > 8)
+while (n-- > 0)
 {
-for (; n > 8; n--)
-{
-_putchar(a);
+	_putchar('_');
 }
 _putchar('\n');
-}
-else
-{
-_putchar('\n');
-}
 }
