@@ -10,9 +10,9 @@ void print_line(int n)
 {
 char a = '-';
 
-if (n > 0)
+if (n > 8)
 {
-for (; n > 0; n--)
+for (; n > 8; n--)
 {
 _putchar(a);
 }
