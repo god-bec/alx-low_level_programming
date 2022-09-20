@@ -21,7 +21,8 @@ if (s[i] >= '0' && s[i] <= '9')
 {
 result *= 10;
 result -= (s[i] - '0');
-boolean = 1;}
+boolean = 1;
+}
 else if (boolean == 1)
 break;
 i++;
